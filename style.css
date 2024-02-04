@@ -8,7 +8,95 @@
     
 }
 
+img {
+  max-width: 100%;
+}
+
 .container{
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+
+  
+}
+.col-40{
+  width: 40%;
+}
+.col-60{
+  width: 60%;
+}
+
+.col-80{
+  width: 80%;
+}
+.col-100{
+  width: 100%;
+}
+
+.bg-white{
+  background-color: aliceblue;
+}
+.bg-grey{
+  background-color: rgb(203, 203, 203);
+}
+.bg-black{
+  background-color: rgb(39, 39, 39);
+}
+
+
+
+
+
+/* HEADER */
+
+header{
+ background-image:url(img/jumbo.png) ;
+}
+.row-intestazione {
+  justify-content: center;
+  color: aliceblue;
+}
+
+
+
+
+/* MAIN */
+
+.row-midline {
+  flex-direction: row-reverse;
+
+}
+
+
+
+
+/* DEBUG */
+.debug .container {
+  border: 2px solid black;
+  padding: 20px ;
+
+}
+
+.debug .row {
+  border: 2px solid red;
+  padding: 20px;
+}
+
+.debug [class^='col'] {
+  border: 2px solid blue;
+  min-height: 100px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
